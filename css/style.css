@@ -256,14 +256,14 @@ footer p {
     color: #00a1ff;
 }
 
-/* Responsividade Básica */
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .hero-content h1 {
-        font-size: 2rem;
-    }
+.preco-antigo {
+    color: #ff0000;
+    text-decoration: line-through;
+    margin-right: 8px;
+    font-size: 0.9em;
+}
+
+.preco {
+    font-weight: bold;
+    color: #333;
 }
